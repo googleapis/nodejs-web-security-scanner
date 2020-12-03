@@ -3,8 +3,8 @@
     {
       "git": {
         "name": ".",
-        "remote": "sso://user/sofialeon/nodejs-web-security-scanner",
-        "sha": "ab8db1f221f4cad427bd374cb0bfd9b031573509"
+        "remote": "https://github.com/googleapis/nodejs-web-security-scanner.git",
+        "sha": "5e79020df9274bb946122bc87494c4fb037cacfc"
       }
     },
     {
