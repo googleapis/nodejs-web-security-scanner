@@ -42,7 +42,7 @@ describe('Quickstart', () => {
   });
 
   it('should run quickstart', async () => {
-    const stdout = execSync(`node ./quickstart.js projects/${projectId}`, {
+    const stdout = execSync(`node ./quickstart.js ${projectId}`, {
       cwd,
     });
     assert(stdout, stdout.match(/\[\]/));
