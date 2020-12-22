@@ -17,7 +17,7 @@
 // ** All changes to this file may be overwritten. **
 
 /* eslint-disable node/no-missing-require, no-unused-vars */
-const websecurityscanner = require('@google-cloud/web-security-scanner');
+const websecurityscanner = require('websecurityscanner');
 
 function main() {
   const webSecurityScannerClient = new websecurityscanner.WebSecurityScannerClient();
