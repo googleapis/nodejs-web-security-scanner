@@ -16,7 +16,7 @@
 // ** https://github.com/googleapis/gapic-generator-typescript **
 // ** All changes to this file may be overwritten. **
 
-import {WebSecurityScannerClient} from 'websecurityscanner';
+import {WebSecurityScannerClient} from '@google-cloud/web-security-scanner';
 
 // check that the client class type name can be used
 function doStuffWithWebSecurityScannerClient(client: WebSecurityScannerClient) {

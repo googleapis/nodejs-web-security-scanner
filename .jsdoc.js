@@ -43,7 +43,7 @@ module.exports = {
     copyright: 'Copyright 2021 Google LLC',
     includeDate: false,
     sourceFiles: false,
-    systemName: 'websecurityscanner',
+    systemName: '@google-cloud/web-security-scanner',
     theme: 'lumen',
     default: {
       outputSourceFiles: false
