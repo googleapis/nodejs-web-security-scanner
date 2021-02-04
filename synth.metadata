@@ -3,8 +3,8 @@
     {
       "git": {
         "name": ".",
-        "remote": "git@github.com:googleapis/nodejs-web-security-scanner.git",
-        "sha": "49895c3f78366879047e6c83c0cb6adc467fe024"
+        "remote": "https://github.com/googleapis/nodejs-web-security-scanner.git",
+        "sha": "c724cfb432f3f00a37352c8dde04087c8af87cae"
       }
     },
     {
