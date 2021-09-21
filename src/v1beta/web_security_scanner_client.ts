@@ -405,6 +405,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.createScanConfig(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.create_scan_config.js</caption>
+   * region_tag:websecurityscanner_create_scan_config_sample
+   *
    */
   createScanConfig(
     request?: protos.google.cloud.websecurityscanner.v1beta.ICreateScanConfigRequest,
@@ -503,6 +507,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.deleteScanConfig(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.delete_scan_config.js</caption>
+   * region_tag:websecurityscanner_delete_scan_config_sample
+   *
    */
   deleteScanConfig(
     request?: protos.google.cloud.websecurityscanner.v1beta.IDeleteScanConfigRequest,
@@ -601,6 +609,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getScanConfig(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.get_scan_config.js</caption>
+   * region_tag:websecurityscanner_get_scan_config_sample
+   *
    */
   getScanConfig(
     request?: protos.google.cloud.websecurityscanner.v1beta.IGetScanConfigRequest,
@@ -704,6 +716,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.updateScanConfig(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.update_scan_config.js</caption>
+   * region_tag:websecurityscanner_update_scan_config_sample
+   *
    */
   updateScanConfig(
     request?: protos.google.cloud.websecurityscanner.v1beta.IUpdateScanConfigRequest,
@@ -802,6 +818,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.startScanRun(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.start_scan_run.js</caption>
+   * region_tag:websecurityscanner_start_scan_run_sample
+   *
    */
   startScanRun(
     request?: protos.google.cloud.websecurityscanner.v1beta.IStartScanRunRequest,
@@ -901,6 +921,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getScanRun(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.get_scan_run.js</caption>
+   * region_tag:websecurityscanner_get_scan_run_sample
+   *
    */
   getScanRun(
     request?: protos.google.cloud.websecurityscanner.v1beta.IGetScanRunRequest,
@@ -1000,6 +1024,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.stopScanRun(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.stop_scan_run.js</caption>
+   * region_tag:websecurityscanner_stop_scan_run_sample
+   *
    */
   stopScanRun(
     request?: protos.google.cloud.websecurityscanner.v1beta.IStopScanRunRequest,
@@ -1099,6 +1127,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getFinding(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.get_finding.js</caption>
+   * region_tag:websecurityscanner_get_finding_sample
+   *
    */
   getFinding(
     request?: protos.google.cloud.websecurityscanner.v1beta.IGetFindingRequest,
@@ -1198,6 +1230,10 @@ export class WebSecurityScannerClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.listFindingTypeStats(request);
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_finding_type_stats.js</caption>
+   * region_tag:websecurityscanner_list_finding_type_stats_sample
+   *
    */
   listFindingTypeStats(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListFindingTypeStatsRequest,
@@ -1305,6 +1341,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_scan_configs.js</caption>
+   * region_tag:websecurityscanner_list_scan_configs_sample
+   *
    */
   listScanConfigs(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListScanConfigsRequest,
@@ -1376,6 +1416,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_scan_configs.js</caption>
+   * region_tag:websecurityscanner_list_scan_configs_sample
+   *
    */
   listScanConfigsStream(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListScanConfigsRequest,
@@ -1389,7 +1433,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanConfigs'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanConfigs.createStream(
       this.innerApiCalls.listScanConfigs as gax.GaxCall,
@@ -1430,6 +1475,10 @@ export class WebSecurityScannerClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_scan_configs.js</caption>
+   * region_tag:websecurityscanner_list_scan_configs_sample
+   *
    */
   listScanConfigsAsync(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListScanConfigsRequest,
@@ -1444,7 +1493,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanConfigs'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanConfigs.asyncIterate(
       this.innerApiCalls['listScanConfigs'] as GaxCall,
@@ -1512,6 +1562,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_scan_runs.js</caption>
+   * region_tag:websecurityscanner_list_scan_runs_sample
+   *
    */
   listScanRuns(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListScanRunsRequest,
@@ -1583,6 +1637,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_scan_runs.js</caption>
+   * region_tag:websecurityscanner_list_scan_runs_sample
+   *
    */
   listScanRunsStream(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListScanRunsRequest,
@@ -1596,7 +1654,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanRuns'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanRuns.createStream(
       this.innerApiCalls.listScanRuns as gax.GaxCall,
@@ -1637,6 +1696,10 @@ export class WebSecurityScannerClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_scan_runs.js</caption>
+   * region_tag:websecurityscanner_list_scan_runs_sample
+   *
    */
   listScanRunsAsync(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListScanRunsRequest,
@@ -1651,7 +1714,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanRuns'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanRuns.asyncIterate(
       this.innerApiCalls['listScanRuns'] as GaxCall,
@@ -1719,6 +1783,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_crawled_urls.js</caption>
+   * region_tag:websecurityscanner_list_crawled_urls_sample
+   *
    */
   listCrawledUrls(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListCrawledUrlsRequest,
@@ -1791,6 +1859,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_crawled_urls.js</caption>
+   * region_tag:websecurityscanner_list_crawled_urls_sample
+   *
    */
   listCrawledUrlsStream(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListCrawledUrlsRequest,
@@ -1804,7 +1876,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listCrawledUrls'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listCrawledUrls.createStream(
       this.innerApiCalls.listCrawledUrls as gax.GaxCall,
@@ -1846,6 +1919,10 @@ export class WebSecurityScannerClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_crawled_urls.js</caption>
+   * region_tag:websecurityscanner_list_crawled_urls_sample
+   *
    */
   listCrawledUrlsAsync(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListCrawledUrlsRequest,
@@ -1860,7 +1937,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listCrawledUrls'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listCrawledUrls.asyncIterate(
       this.innerApiCalls['listCrawledUrls'] as GaxCall,
@@ -1933,6 +2011,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_findings.js</caption>
+   * region_tag:websecurityscanner_list_findings_sample
+   *
    */
   listFindings(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListFindingsRequest,
@@ -2010,6 +2092,10 @@ export class WebSecurityScannerClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_findings.js</caption>
+   * region_tag:websecurityscanner_list_findings_sample
+   *
    */
   listFindingsStream(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListFindingsRequest,
@@ -2023,7 +2109,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listFindings'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listFindings.createStream(
       this.innerApiCalls.listFindings as gax.GaxCall,
@@ -2070,6 +2157,10 @@ export class WebSecurityScannerClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta/web_security_scanner.list_findings.js</caption>
+   * region_tag:websecurityscanner_list_findings_sample
+   *
    */
   listFindingsAsync(
     request?: protos.google.cloud.websecurityscanner.v1beta.IListFindingsRequest,
@@ -2084,7 +2175,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listFindings'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listFindings.asyncIterate(
       this.innerApiCalls['listFindings'] as GaxCall,
