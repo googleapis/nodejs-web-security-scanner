@@ -1362,7 +1362,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanConfigs'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanConfigs.createStream(
       this.innerApiCalls.listScanConfigs as gax.GaxCall,
@@ -1417,7 +1418,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanConfigs'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanConfigs.asyncIterate(
       this.innerApiCalls['listScanConfigs'] as GaxCall,
@@ -1569,7 +1571,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanRuns'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanRuns.createStream(
       this.innerApiCalls.listScanRuns as gax.GaxCall,
@@ -1624,7 +1627,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listScanRuns'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listScanRuns.asyncIterate(
       this.innerApiCalls['listScanRuns'] as GaxCall,
@@ -1777,7 +1781,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listCrawledUrls'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listCrawledUrls.createStream(
       this.innerApiCalls.listCrawledUrls as gax.GaxCall,
@@ -1833,7 +1838,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listCrawledUrls'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listCrawledUrls.asyncIterate(
       this.innerApiCalls['listCrawledUrls'] as GaxCall,
@@ -1996,7 +2002,8 @@ export class WebSecurityScannerClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listFindings'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listFindings.createStream(
       this.innerApiCalls.listFindings as gax.GaxCall,
@@ -2057,7 +2064,8 @@ export class WebSecurityScannerClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listFindings'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listFindings.asyncIterate(
       this.innerApiCalls['listFindings'] as GaxCall,
