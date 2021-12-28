@@ -12,5 +12,5 @@
   "name": "websecurityscanner",
   "issue_tracker": "https://github.com/googleapis/nodejs-web-security-scanner/issues",
   "api_shortname": "websecurityscanner",
-  "library_type": ""
+  "library_type": "GAPIC_AUTO"
 }
