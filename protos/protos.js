@@ -6428,7 +6428,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#createScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|createScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef CreateScanConfigCallback
                          * @type {function}
@@ -6461,7 +6461,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#deleteScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|deleteScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef DeleteScanConfigCallback
                          * @type {function}
@@ -6494,7 +6494,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#getScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|getScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef GetScanConfigCallback
                          * @type {function}
@@ -6527,7 +6527,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listScanConfigs}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listScanConfigs}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef ListScanConfigsCallback
                          * @type {function}
@@ -6560,7 +6560,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#updateScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|updateScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef UpdateScanConfigCallback
                          * @type {function}
@@ -6593,7 +6593,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#startScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|startScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef StartScanRunCallback
                          * @type {function}
@@ -6626,7 +6626,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#getScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|getScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef GetScanRunCallback
                          * @type {function}
@@ -6659,7 +6659,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listScanRuns}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listScanRuns}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef ListScanRunsCallback
                          * @type {function}
@@ -6692,7 +6692,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#stopScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|stopScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef StopScanRunCallback
                          * @type {function}
@@ -6725,7 +6725,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listCrawledUrls}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listCrawledUrls}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef ListCrawledUrlsCallback
                          * @type {function}
@@ -6758,7 +6758,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#getFinding}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|getFinding}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef GetFindingCallback
                          * @type {function}
@@ -6791,7 +6791,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listFindings}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listFindings}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef ListFindingsCallback
                          * @type {function}
@@ -6824,7 +6824,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listFindingTypeStats}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listFindingTypeStats}.
                          * @memberof google.cloud.websecurityscanner.v1.WebSecurityScanner
                          * @typedef ListFindingTypeStatsCallback
                          * @type {function}
@@ -15125,7 +15125,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#createScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|createScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef CreateScanConfigCallback
                          * @type {function}
@@ -15158,7 +15158,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#deleteScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|deleteScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef DeleteScanConfigCallback
                          * @type {function}
@@ -15191,7 +15191,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#getScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|getScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef GetScanConfigCallback
                          * @type {function}
@@ -15224,7 +15224,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listScanConfigs}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listScanConfigs}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef ListScanConfigsCallback
                          * @type {function}
@@ -15257,7 +15257,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#updateScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|updateScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef UpdateScanConfigCallback
                          * @type {function}
@@ -15290,7 +15290,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#startScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|startScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef StartScanRunCallback
                          * @type {function}
@@ -15323,7 +15323,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#getScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|getScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef GetScanRunCallback
                          * @type {function}
@@ -15356,7 +15356,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listScanRuns}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listScanRuns}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef ListScanRunsCallback
                          * @type {function}
@@ -15389,7 +15389,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#stopScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|stopScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef StopScanRunCallback
                          * @type {function}
@@ -15422,7 +15422,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listCrawledUrls}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listCrawledUrls}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef ListCrawledUrlsCallback
                          * @type {function}
@@ -15455,7 +15455,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#getFinding}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|getFinding}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef GetFindingCallback
                          * @type {function}
@@ -15488,7 +15488,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listFindings}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listFindings}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef ListFindingsCallback
                          * @type {function}
@@ -15521,7 +15521,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listFindingTypeStats}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listFindingTypeStats}.
                          * @memberof google.cloud.websecurityscanner.v1alpha.WebSecurityScanner
                          * @typedef ListFindingTypeStatsCallback
                          * @type {function}
@@ -25149,7 +25149,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#createScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|createScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef CreateScanConfigCallback
                          * @type {function}
@@ -25182,7 +25182,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#deleteScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|deleteScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef DeleteScanConfigCallback
                          * @type {function}
@@ -25215,7 +25215,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#getScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|getScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef GetScanConfigCallback
                          * @type {function}
@@ -25248,7 +25248,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listScanConfigs}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listScanConfigs}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef ListScanConfigsCallback
                          * @type {function}
@@ -25281,7 +25281,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#updateScanConfig}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|updateScanConfig}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef UpdateScanConfigCallback
                          * @type {function}
@@ -25314,7 +25314,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#startScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|startScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef StartScanRunCallback
                          * @type {function}
@@ -25347,7 +25347,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#getScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|getScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef GetScanRunCallback
                          * @type {function}
@@ -25380,7 +25380,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listScanRuns}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listScanRuns}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef ListScanRunsCallback
                          * @type {function}
@@ -25413,7 +25413,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#stopScanRun}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|stopScanRun}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef StopScanRunCallback
                          * @type {function}
@@ -25446,7 +25446,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listCrawledUrls}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listCrawledUrls}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef ListCrawledUrlsCallback
                          * @type {function}
@@ -25479,7 +25479,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#getFinding}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|getFinding}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef GetFindingCallback
                          * @type {function}
@@ -25512,7 +25512,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listFindings}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listFindings}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef ListFindingsCallback
                          * @type {function}
@@ -25545,7 +25545,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listFindingTypeStats}.
+                         * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listFindingTypeStats}.
                          * @memberof google.cloud.websecurityscanner.v1beta.WebSecurityScanner
                          * @typedef ListFindingTypeStatsCallback
                          * @type {function}
@@ -36218,6 +36218,7 @@
                  * @property {boolean|null} [packed] FieldOptions packed
                  * @property {google.protobuf.FieldOptions.JSType|null} [jstype] FieldOptions jstype
                  * @property {boolean|null} [lazy] FieldOptions lazy
+                 * @property {boolean|null} [unverifiedLazy] FieldOptions unverifiedLazy
                  * @property {boolean|null} [deprecated] FieldOptions deprecated
                  * @property {boolean|null} [weak] FieldOptions weak
                  * @property {Array.<google.protobuf.IUninterpretedOption>|null} [uninterpretedOption] FieldOptions uninterpretedOption
@@ -36273,6 +36274,14 @@
                  * @instance
                  */
                 FieldOptions.prototype.lazy = false;
+    
+                /**
+                 * FieldOptions unverifiedLazy.
+                 * @member {boolean} unverifiedLazy
+                 * @memberof google.protobuf.FieldOptions
+                 * @instance
+                 */
+                FieldOptions.prototype.unverifiedLazy = false;
     
                 /**
                  * FieldOptions deprecated.
@@ -36350,6 +36359,8 @@
                         writer.uint32(/* id 6, wireType 0 =*/48).int32(message.jstype);
                     if (message.weak != null && Object.hasOwnProperty.call(message, "weak"))
                         writer.uint32(/* id 10, wireType 0 =*/80).bool(message.weak);
+                    if (message.unverifiedLazy != null && Object.hasOwnProperty.call(message, "unverifiedLazy"))
+                        writer.uint32(/* id 15, wireType 0 =*/120).bool(message.unverifiedLazy);
                     if (message.uninterpretedOption != null && message.uninterpretedOption.length)
                         for (var i = 0; i < message.uninterpretedOption.length; ++i)
                             $root.google.protobuf.UninterpretedOption.encode(message.uninterpretedOption[i], writer.uint32(/* id 999, wireType 2 =*/7994).fork()).ldelim();
@@ -36406,6 +36417,9 @@
                             break;
                         case 5:
                             message.lazy = reader.bool();
+                            break;
+                        case 15:
+                            message.unverifiedLazy = reader.bool();
                             break;
                         case 3:
                             message.deprecated = reader.bool();
@@ -36490,6 +36504,9 @@
                     if (message.lazy != null && message.hasOwnProperty("lazy"))
                         if (typeof message.lazy !== "boolean")
                             return "lazy: boolean expected";
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        if (typeof message.unverifiedLazy !== "boolean")
+                            return "unverifiedLazy: boolean expected";
                     if (message.deprecated != null && message.hasOwnProperty("deprecated"))
                         if (typeof message.deprecated !== "boolean")
                             return "deprecated: boolean expected";
@@ -36575,6 +36592,8 @@
                     }
                     if (object.lazy != null)
                         message.lazy = Boolean(object.lazy);
+                    if (object.unverifiedLazy != null)
+                        message.unverifiedLazy = Boolean(object.unverifiedLazy);
                     if (object.deprecated != null)
                         message.deprecated = Boolean(object.deprecated);
                     if (object.weak != null)
@@ -36662,6 +36681,7 @@
                         object.lazy = false;
                         object.jstype = options.enums === String ? "JS_NORMAL" : 0;
                         object.weak = false;
+                        object.unverifiedLazy = false;
                         object[".google.api.resourceReference"] = null;
                     }
                     if (message.ctype != null && message.hasOwnProperty("ctype"))
@@ -36676,6 +36696,8 @@
                         object.jstype = options.enums === String ? $root.google.protobuf.FieldOptions.JSType[message.jstype] : message.jstype;
                     if (message.weak != null && message.hasOwnProperty("weak"))
                         object.weak = message.weak;
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        object.unverifiedLazy = message.unverifiedLazy;
                     if (message.uninterpretedOption && message.uninterpretedOption.length) {
                         object.uninterpretedOption = [];
                         for (var j = 0; j < message.uninterpretedOption.length; ++j)

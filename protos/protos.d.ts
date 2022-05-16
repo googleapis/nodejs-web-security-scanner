@@ -2639,91 +2639,91 @@ export namespace google {
                 namespace WebSecurityScanner {
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#createScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|createScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type CreateScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#deleteScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|deleteScanConfig}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteScanConfigCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#getScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|getScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type GetScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listScanConfigs}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listScanConfigs}.
                      * @param error Error, if any
                      * @param [response] ListScanConfigsResponse
                      */
                     type ListScanConfigsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ListScanConfigsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#updateScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|updateScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type UpdateScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#startScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|startScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type StartScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#getScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|getScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type GetScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listScanRuns}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listScanRuns}.
                      * @param error Error, if any
                      * @param [response] ListScanRunsResponse
                      */
                     type ListScanRunsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ListScanRunsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#stopScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|stopScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type StopScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listCrawledUrls}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listCrawledUrls}.
                      * @param error Error, if any
                      * @param [response] ListCrawledUrlsResponse
                      */
                     type ListCrawledUrlsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ListCrawledUrlsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#getFinding}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|getFinding}.
                      * @param error Error, if any
                      * @param [response] Finding
                      */
                     type GetFindingCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.Finding) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listFindings}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listFindings}.
                      * @param error Error, if any
                      * @param [response] ListFindingsResponse
                      */
                     type ListFindingsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1.ListFindingsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner#listFindingTypeStats}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1.WebSecurityScanner|listFindingTypeStats}.
                      * @param error Error, if any
                      * @param [response] ListFindingTypeStatsResponse
                      */
@@ -6335,91 +6335,91 @@ export namespace google {
                 namespace WebSecurityScanner {
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#createScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|createScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type CreateScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#deleteScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|deleteScanConfig}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteScanConfigCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#getScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|getScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type GetScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listScanConfigs}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listScanConfigs}.
                      * @param error Error, if any
                      * @param [response] ListScanConfigsResponse
                      */
                     type ListScanConfigsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ListScanConfigsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#updateScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|updateScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type UpdateScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#startScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|startScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type StartScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#getScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|getScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type GetScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listScanRuns}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listScanRuns}.
                      * @param error Error, if any
                      * @param [response] ListScanRunsResponse
                      */
                     type ListScanRunsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ListScanRunsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#stopScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|stopScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type StopScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listCrawledUrls}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listCrawledUrls}.
                      * @param error Error, if any
                      * @param [response] ListCrawledUrlsResponse
                      */
                     type ListCrawledUrlsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ListCrawledUrlsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#getFinding}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|getFinding}.
                      * @param error Error, if any
                      * @param [response] Finding
                      */
                     type GetFindingCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.Finding) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listFindings}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listFindings}.
                      * @param error Error, if any
                      * @param [response] ListFindingsResponse
                      */
                     type ListFindingsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1alpha.ListFindingsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner#listFindingTypeStats}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1alpha.WebSecurityScanner|listFindingTypeStats}.
                      * @param error Error, if any
                      * @param [response] ListFindingTypeStatsResponse
                      */
@@ -10515,91 +10515,91 @@ export namespace google {
                 namespace WebSecurityScanner {
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#createScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|createScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type CreateScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#deleteScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|deleteScanConfig}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteScanConfigCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#getScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|getScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type GetScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listScanConfigs}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listScanConfigs}.
                      * @param error Error, if any
                      * @param [response] ListScanConfigsResponse
                      */
                     type ListScanConfigsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ListScanConfigsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#updateScanConfig}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|updateScanConfig}.
                      * @param error Error, if any
                      * @param [response] ScanConfig
                      */
                     type UpdateScanConfigCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ScanConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#startScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|startScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type StartScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#getScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|getScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type GetScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listScanRuns}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listScanRuns}.
                      * @param error Error, if any
                      * @param [response] ListScanRunsResponse
                      */
                     type ListScanRunsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ListScanRunsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#stopScanRun}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|stopScanRun}.
                      * @param error Error, if any
                      * @param [response] ScanRun
                      */
                     type StopScanRunCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ScanRun) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listCrawledUrls}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listCrawledUrls}.
                      * @param error Error, if any
                      * @param [response] ListCrawledUrlsResponse
                      */
                     type ListCrawledUrlsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ListCrawledUrlsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#getFinding}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|getFinding}.
                      * @param error Error, if any
                      * @param [response] Finding
                      */
                     type GetFindingCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.Finding) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listFindings}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listFindings}.
                      * @param error Error, if any
                      * @param [response] ListFindingsResponse
                      */
                     type ListFindingsCallback = (error: (Error|null), response?: google.cloud.websecurityscanner.v1beta.ListFindingsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner#listFindingTypeStats}.
+                     * Callback as used by {@link google.cloud.websecurityscanner.v1beta.WebSecurityScanner|listFindingTypeStats}.
                      * @param error Error, if any
                      * @param [response] ListFindingTypeStatsResponse
                      */
@@ -14766,6 +14766,9 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
+            /** FieldOptions unverifiedLazy */
+            unverifiedLazy?: (boolean|null);
+
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -14802,6 +14805,9 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
+
+            /** FieldOptions unverifiedLazy. */
+            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
