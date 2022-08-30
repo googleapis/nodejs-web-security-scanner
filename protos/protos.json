@@ -608,6 +608,42 @@
                         }
                       }
                     },
+                    "ScanRunLog": {
+                      "fields": {
+                        "summary": {
+                          "type": "string",
+                          "id": 1
+                        },
+                        "name": {
+                          "type": "string",
+                          "id": 2
+                        },
+                        "executionState": {
+                          "type": "google.cloud.websecurityscanner.v1.ScanRun.ExecutionState",
+                          "id": 3
+                        },
+                        "resultState": {
+                          "type": "google.cloud.websecurityscanner.v1.ScanRun.ResultState",
+                          "id": 4
+                        },
+                        "urlsCrawledCount": {
+                          "type": "int64",
+                          "id": 5
+                        },
+                        "urlsTestedCount": {
+                          "type": "int64",
+                          "id": 6
+                        },
+                        "hasFindings": {
+                          "type": "bool",
+                          "id": 7
+                        },
+                        "errorTrace": {
+                          "type": "google.cloud.websecurityscanner.v1.ScanRunErrorTrace",
+                          "id": 8
+                        }
+                      }
+                    },
                     "WebSecurityScanner": {
                       "options": {
                         "(google.api.default_host)": "websecurityscanner.googleapis.com",

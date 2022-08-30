@@ -2580,6 +2580,145 @@ export namespace google {
                     }
                 }
 
+                /** Properties of a ScanRunLog. */
+                interface IScanRunLog {
+
+                    /** ScanRunLog summary */
+                    summary?: (string|null);
+
+                    /** ScanRunLog name */
+                    name?: (string|null);
+
+                    /** ScanRunLog executionState */
+                    executionState?: (google.cloud.websecurityscanner.v1.ScanRun.ExecutionState|keyof typeof google.cloud.websecurityscanner.v1.ScanRun.ExecutionState|null);
+
+                    /** ScanRunLog resultState */
+                    resultState?: (google.cloud.websecurityscanner.v1.ScanRun.ResultState|keyof typeof google.cloud.websecurityscanner.v1.ScanRun.ResultState|null);
+
+                    /** ScanRunLog urlsCrawledCount */
+                    urlsCrawledCount?: (number|Long|string|null);
+
+                    /** ScanRunLog urlsTestedCount */
+                    urlsTestedCount?: (number|Long|string|null);
+
+                    /** ScanRunLog hasFindings */
+                    hasFindings?: (boolean|null);
+
+                    /** ScanRunLog errorTrace */
+                    errorTrace?: (google.cloud.websecurityscanner.v1.IScanRunErrorTrace|null);
+                }
+
+                /** Represents a ScanRunLog. */
+                class ScanRunLog implements IScanRunLog {
+
+                    /**
+                     * Constructs a new ScanRunLog.
+                     * @param [properties] Properties to set
+                     */
+                    constructor(properties?: google.cloud.websecurityscanner.v1.IScanRunLog);
+
+                    /** ScanRunLog summary. */
+                    public summary: string;
+
+                    /** ScanRunLog name. */
+                    public name: string;
+
+                    /** ScanRunLog executionState. */
+                    public executionState: (google.cloud.websecurityscanner.v1.ScanRun.ExecutionState|keyof typeof google.cloud.websecurityscanner.v1.ScanRun.ExecutionState);
+
+                    /** ScanRunLog resultState. */
+                    public resultState: (google.cloud.websecurityscanner.v1.ScanRun.ResultState|keyof typeof google.cloud.websecurityscanner.v1.ScanRun.ResultState);
+
+                    /** ScanRunLog urlsCrawledCount. */
+                    public urlsCrawledCount: (number|Long|string);
+
+                    /** ScanRunLog urlsTestedCount. */
+                    public urlsTestedCount: (number|Long|string);
+
+                    /** ScanRunLog hasFindings. */
+                    public hasFindings: boolean;
+
+                    /** ScanRunLog errorTrace. */
+                    public errorTrace?: (google.cloud.websecurityscanner.v1.IScanRunErrorTrace|null);
+
+                    /**
+                     * Creates a new ScanRunLog instance using the specified properties.
+                     * @param [properties] Properties to set
+                     * @returns ScanRunLog instance
+                     */
+                    public static create(properties?: google.cloud.websecurityscanner.v1.IScanRunLog): google.cloud.websecurityscanner.v1.ScanRunLog;
+
+                    /**
+                     * Encodes the specified ScanRunLog message. Does not implicitly {@link google.cloud.websecurityscanner.v1.ScanRunLog.verify|verify} messages.
+                     * @param message ScanRunLog message or plain object to encode
+                     * @param [writer] Writer to encode to
+                     * @returns Writer
+                     */
+                    public static encode(message: google.cloud.websecurityscanner.v1.IScanRunLog, writer?: $protobuf.Writer): $protobuf.Writer;
+
+                    /**
+                     * Encodes the specified ScanRunLog message, length delimited. Does not implicitly {@link google.cloud.websecurityscanner.v1.ScanRunLog.verify|verify} messages.
+                     * @param message ScanRunLog message or plain object to encode
+                     * @param [writer] Writer to encode to
+                     * @returns Writer
+                     */
+                    public static encodeDelimited(message: google.cloud.websecurityscanner.v1.IScanRunLog, writer?: $protobuf.Writer): $protobuf.Writer;
+
+                    /**
+                     * Decodes a ScanRunLog message from the specified reader or buffer.
+                     * @param reader Reader or buffer to decode from
+                     * @param [length] Message length if known beforehand
+                     * @returns ScanRunLog
+                     * @throws {Error} If the payload is not a reader or valid buffer
+                     * @throws {$protobuf.util.ProtocolError} If required fields are missing
+                     */
+                    public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): google.cloud.websecurityscanner.v1.ScanRunLog;
+
+                    /**
+                     * Decodes a ScanRunLog message from the specified reader or buffer, length delimited.
+                     * @param reader Reader or buffer to decode from
+                     * @returns ScanRunLog
+                     * @throws {Error} If the payload is not a reader or valid buffer
+                     * @throws {$protobuf.util.ProtocolError} If required fields are missing
+                     */
+                    public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): google.cloud.websecurityscanner.v1.ScanRunLog;
+
+                    /**
+                     * Verifies a ScanRunLog message.
+                     * @param message Plain object to verify
+                     * @returns `null` if valid, otherwise the reason why it is not
+                     */
+                    public static verify(message: { [k: string]: any }): (string|null);
+
+                    /**
+                     * Creates a ScanRunLog message from a plain object. Also converts values to their respective internal types.
+                     * @param object Plain object
+                     * @returns ScanRunLog
+                     */
+                    public static fromObject(object: { [k: string]: any }): google.cloud.websecurityscanner.v1.ScanRunLog;
+
+                    /**
+                     * Creates a plain object from a ScanRunLog message. Also converts values to other types if specified.
+                     * @param message ScanRunLog
+                     * @param [options] Conversion options
+                     * @returns Plain object
+                     */
+                    public static toObject(message: google.cloud.websecurityscanner.v1.ScanRunLog, options?: $protobuf.IConversionOptions): { [k: string]: any };
+
+                    /**
+                     * Converts this ScanRunLog to JSON.
+                     * @returns JSON object
+                     */
+                    public toJSON(): { [k: string]: any };
+
+                    /**
+                     * Gets the default type url for ScanRunLog
+                     * @param [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                     * @returns The default type url
+                     */
+                    public static getTypeUrl(typeUrlPrefix?: string): string;
+                }
+
                 /** Represents a WebSecurityScanner */
                 class WebSecurityScanner extends $protobuf.rpc.Service {
 

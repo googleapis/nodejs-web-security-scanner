@@ -6789,6 +6789,450 @@
                         return ScanRunWarningTrace;
                     })();
     
+                    v1.ScanRunLog = (function() {
+    
+                        /**
+                         * Properties of a ScanRunLog.
+                         * @memberof google.cloud.websecurityscanner.v1
+                         * @interface IScanRunLog
+                         * @property {string|null} [summary] ScanRunLog summary
+                         * @property {string|null} [name] ScanRunLog name
+                         * @property {google.cloud.websecurityscanner.v1.ScanRun.ExecutionState|null} [executionState] ScanRunLog executionState
+                         * @property {google.cloud.websecurityscanner.v1.ScanRun.ResultState|null} [resultState] ScanRunLog resultState
+                         * @property {number|Long|null} [urlsCrawledCount] ScanRunLog urlsCrawledCount
+                         * @property {number|Long|null} [urlsTestedCount] ScanRunLog urlsTestedCount
+                         * @property {boolean|null} [hasFindings] ScanRunLog hasFindings
+                         * @property {google.cloud.websecurityscanner.v1.IScanRunErrorTrace|null} [errorTrace] ScanRunLog errorTrace
+                         */
+    
+                        /**
+                         * Constructs a new ScanRunLog.
+                         * @memberof google.cloud.websecurityscanner.v1
+                         * @classdesc Represents a ScanRunLog.
+                         * @implements IScanRunLog
+                         * @constructor
+                         * @param {google.cloud.websecurityscanner.v1.IScanRunLog=} [properties] Properties to set
+                         */
+                        function ScanRunLog(properties) {
+                            if (properties)
+                                for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
+                                    if (properties[keys[i]] != null)
+                                        this[keys[i]] = properties[keys[i]];
+                        }
+    
+                        /**
+                         * ScanRunLog summary.
+                         * @member {string} summary
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.summary = "";
+    
+                        /**
+                         * ScanRunLog name.
+                         * @member {string} name
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.name = "";
+    
+                        /**
+                         * ScanRunLog executionState.
+                         * @member {google.cloud.websecurityscanner.v1.ScanRun.ExecutionState} executionState
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.executionState = 0;
+    
+                        /**
+                         * ScanRunLog resultState.
+                         * @member {google.cloud.websecurityscanner.v1.ScanRun.ResultState} resultState
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.resultState = 0;
+    
+                        /**
+                         * ScanRunLog urlsCrawledCount.
+                         * @member {number|Long} urlsCrawledCount
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.urlsCrawledCount = $util.Long ? $util.Long.fromBits(0,0,false) : 0;
+    
+                        /**
+                         * ScanRunLog urlsTestedCount.
+                         * @member {number|Long} urlsTestedCount
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.urlsTestedCount = $util.Long ? $util.Long.fromBits(0,0,false) : 0;
+    
+                        /**
+                         * ScanRunLog hasFindings.
+                         * @member {boolean} hasFindings
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.hasFindings = false;
+    
+                        /**
+                         * ScanRunLog errorTrace.
+                         * @member {google.cloud.websecurityscanner.v1.IScanRunErrorTrace|null|undefined} errorTrace
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         */
+                        ScanRunLog.prototype.errorTrace = null;
+    
+                        /**
+                         * Creates a new ScanRunLog instance using the specified properties.
+                         * @function create
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {google.cloud.websecurityscanner.v1.IScanRunLog=} [properties] Properties to set
+                         * @returns {google.cloud.websecurityscanner.v1.ScanRunLog} ScanRunLog instance
+                         */
+                        ScanRunLog.create = function create(properties) {
+                            return new ScanRunLog(properties);
+                        };
+    
+                        /**
+                         * Encodes the specified ScanRunLog message. Does not implicitly {@link google.cloud.websecurityscanner.v1.ScanRunLog.verify|verify} messages.
+                         * @function encode
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {google.cloud.websecurityscanner.v1.IScanRunLog} message ScanRunLog message or plain object to encode
+                         * @param {$protobuf.Writer} [writer] Writer to encode to
+                         * @returns {$protobuf.Writer} Writer
+                         */
+                        ScanRunLog.encode = function encode(message, writer) {
+                            if (!writer)
+                                writer = $Writer.create();
+                            if (message.summary != null && Object.hasOwnProperty.call(message, "summary"))
+                                writer.uint32(/* id 1, wireType 2 =*/10).string(message.summary);
+                            if (message.name != null && Object.hasOwnProperty.call(message, "name"))
+                                writer.uint32(/* id 2, wireType 2 =*/18).string(message.name);
+                            if (message.executionState != null && Object.hasOwnProperty.call(message, "executionState"))
+                                writer.uint32(/* id 3, wireType 0 =*/24).int32(message.executionState);
+                            if (message.resultState != null && Object.hasOwnProperty.call(message, "resultState"))
+                                writer.uint32(/* id 4, wireType 0 =*/32).int32(message.resultState);
+                            if (message.urlsCrawledCount != null && Object.hasOwnProperty.call(message, "urlsCrawledCount"))
+                                writer.uint32(/* id 5, wireType 0 =*/40).int64(message.urlsCrawledCount);
+                            if (message.urlsTestedCount != null && Object.hasOwnProperty.call(message, "urlsTestedCount"))
+                                writer.uint32(/* id 6, wireType 0 =*/48).int64(message.urlsTestedCount);
+                            if (message.hasFindings != null && Object.hasOwnProperty.call(message, "hasFindings"))
+                                writer.uint32(/* id 7, wireType 0 =*/56).bool(message.hasFindings);
+                            if (message.errorTrace != null && Object.hasOwnProperty.call(message, "errorTrace"))
+                                $root.google.cloud.websecurityscanner.v1.ScanRunErrorTrace.encode(message.errorTrace, writer.uint32(/* id 8, wireType 2 =*/66).fork()).ldelim();
+                            return writer;
+                        };
+    
+                        /**
+                         * Encodes the specified ScanRunLog message, length delimited. Does not implicitly {@link google.cloud.websecurityscanner.v1.ScanRunLog.verify|verify} messages.
+                         * @function encodeDelimited
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {google.cloud.websecurityscanner.v1.IScanRunLog} message ScanRunLog message or plain object to encode
+                         * @param {$protobuf.Writer} [writer] Writer to encode to
+                         * @returns {$protobuf.Writer} Writer
+                         */
+                        ScanRunLog.encodeDelimited = function encodeDelimited(message, writer) {
+                            return this.encode(message, writer).ldelim();
+                        };
+    
+                        /**
+                         * Decodes a ScanRunLog message from the specified reader or buffer.
+                         * @function decode
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {$protobuf.Reader|Uint8Array} reader Reader or buffer to decode from
+                         * @param {number} [length] Message length if known beforehand
+                         * @returns {google.cloud.websecurityscanner.v1.ScanRunLog} ScanRunLog
+                         * @throws {Error} If the payload is not a reader or valid buffer
+                         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+                         */
+                        ScanRunLog.decode = function decode(reader, length) {
+                            if (!(reader instanceof $Reader))
+                                reader = $Reader.create(reader);
+                            var end = length === undefined ? reader.len : reader.pos + length, message = new $root.google.cloud.websecurityscanner.v1.ScanRunLog();
+                            while (reader.pos < end) {
+                                var tag = reader.uint32();
+                                switch (tag >>> 3) {
+                                case 1: {
+                                        message.summary = reader.string();
+                                        break;
+                                    }
+                                case 2: {
+                                        message.name = reader.string();
+                                        break;
+                                    }
+                                case 3: {
+                                        message.executionState = reader.int32();
+                                        break;
+                                    }
+                                case 4: {
+                                        message.resultState = reader.int32();
+                                        break;
+                                    }
+                                case 5: {
+                                        message.urlsCrawledCount = reader.int64();
+                                        break;
+                                    }
+                                case 6: {
+                                        message.urlsTestedCount = reader.int64();
+                                        break;
+                                    }
+                                case 7: {
+                                        message.hasFindings = reader.bool();
+                                        break;
+                                    }
+                                case 8: {
+                                        message.errorTrace = $root.google.cloud.websecurityscanner.v1.ScanRunErrorTrace.decode(reader, reader.uint32());
+                                        break;
+                                    }
+                                default:
+                                    reader.skipType(tag & 7);
+                                    break;
+                                }
+                            }
+                            return message;
+                        };
+    
+                        /**
+                         * Decodes a ScanRunLog message from the specified reader or buffer, length delimited.
+                         * @function decodeDelimited
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {$protobuf.Reader|Uint8Array} reader Reader or buffer to decode from
+                         * @returns {google.cloud.websecurityscanner.v1.ScanRunLog} ScanRunLog
+                         * @throws {Error} If the payload is not a reader or valid buffer
+                         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+                         */
+                        ScanRunLog.decodeDelimited = function decodeDelimited(reader) {
+                            if (!(reader instanceof $Reader))
+                                reader = new $Reader(reader);
+                            return this.decode(reader, reader.uint32());
+                        };
+    
+                        /**
+                         * Verifies a ScanRunLog message.
+                         * @function verify
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {Object.<string,*>} message Plain object to verify
+                         * @returns {string|null} `null` if valid, otherwise the reason why it is not
+                         */
+                        ScanRunLog.verify = function verify(message) {
+                            if (typeof message !== "object" || message === null)
+                                return "object expected";
+                            if (message.summary != null && message.hasOwnProperty("summary"))
+                                if (!$util.isString(message.summary))
+                                    return "summary: string expected";
+                            if (message.name != null && message.hasOwnProperty("name"))
+                                if (!$util.isString(message.name))
+                                    return "name: string expected";
+                            if (message.executionState != null && message.hasOwnProperty("executionState"))
+                                switch (message.executionState) {
+                                default:
+                                    return "executionState: enum value expected";
+                                case 0:
+                                case 1:
+                                case 2:
+                                case 3:
+                                    break;
+                                }
+                            if (message.resultState != null && message.hasOwnProperty("resultState"))
+                                switch (message.resultState) {
+                                default:
+                                    return "resultState: enum value expected";
+                                case 0:
+                                case 1:
+                                case 2:
+                                case 3:
+                                    break;
+                                }
+                            if (message.urlsCrawledCount != null && message.hasOwnProperty("urlsCrawledCount"))
+                                if (!$util.isInteger(message.urlsCrawledCount) && !(message.urlsCrawledCount && $util.isInteger(message.urlsCrawledCount.low) && $util.isInteger(message.urlsCrawledCount.high)))
+                                    return "urlsCrawledCount: integer|Long expected";
+                            if (message.urlsTestedCount != null && message.hasOwnProperty("urlsTestedCount"))
+                                if (!$util.isInteger(message.urlsTestedCount) && !(message.urlsTestedCount && $util.isInteger(message.urlsTestedCount.low) && $util.isInteger(message.urlsTestedCount.high)))
+                                    return "urlsTestedCount: integer|Long expected";
+                            if (message.hasFindings != null && message.hasOwnProperty("hasFindings"))
+                                if (typeof message.hasFindings !== "boolean")
+                                    return "hasFindings: boolean expected";
+                            if (message.errorTrace != null && message.hasOwnProperty("errorTrace")) {
+                                var error = $root.google.cloud.websecurityscanner.v1.ScanRunErrorTrace.verify(message.errorTrace);
+                                if (error)
+                                    return "errorTrace." + error;
+                            }
+                            return null;
+                        };
+    
+                        /**
+                         * Creates a ScanRunLog message from a plain object. Also converts values to their respective internal types.
+                         * @function fromObject
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {Object.<string,*>} object Plain object
+                         * @returns {google.cloud.websecurityscanner.v1.ScanRunLog} ScanRunLog
+                         */
+                        ScanRunLog.fromObject = function fromObject(object) {
+                            if (object instanceof $root.google.cloud.websecurityscanner.v1.ScanRunLog)
+                                return object;
+                            var message = new $root.google.cloud.websecurityscanner.v1.ScanRunLog();
+                            if (object.summary != null)
+                                message.summary = String(object.summary);
+                            if (object.name != null)
+                                message.name = String(object.name);
+                            switch (object.executionState) {
+                            case "EXECUTION_STATE_UNSPECIFIED":
+                            case 0:
+                                message.executionState = 0;
+                                break;
+                            case "QUEUED":
+                            case 1:
+                                message.executionState = 1;
+                                break;
+                            case "SCANNING":
+                            case 2:
+                                message.executionState = 2;
+                                break;
+                            case "FINISHED":
+                            case 3:
+                                message.executionState = 3;
+                                break;
+                            }
+                            switch (object.resultState) {
+                            case "RESULT_STATE_UNSPECIFIED":
+                            case 0:
+                                message.resultState = 0;
+                                break;
+                            case "SUCCESS":
+                            case 1:
+                                message.resultState = 1;
+                                break;
+                            case "ERROR":
+                            case 2:
+                                message.resultState = 2;
+                                break;
+                            case "KILLED":
+                            case 3:
+                                message.resultState = 3;
+                                break;
+                            }
+                            if (object.urlsCrawledCount != null)
+                                if ($util.Long)
+                                    (message.urlsCrawledCount = $util.Long.fromValue(object.urlsCrawledCount)).unsigned = false;
+                                else if (typeof object.urlsCrawledCount === "string")
+                                    message.urlsCrawledCount = parseInt(object.urlsCrawledCount, 10);
+                                else if (typeof object.urlsCrawledCount === "number")
+                                    message.urlsCrawledCount = object.urlsCrawledCount;
+                                else if (typeof object.urlsCrawledCount === "object")
+                                    message.urlsCrawledCount = new $util.LongBits(object.urlsCrawledCount.low >>> 0, object.urlsCrawledCount.high >>> 0).toNumber();
+                            if (object.urlsTestedCount != null)
+                                if ($util.Long)
+                                    (message.urlsTestedCount = $util.Long.fromValue(object.urlsTestedCount)).unsigned = false;
+                                else if (typeof object.urlsTestedCount === "string")
+                                    message.urlsTestedCount = parseInt(object.urlsTestedCount, 10);
+                                else if (typeof object.urlsTestedCount === "number")
+                                    message.urlsTestedCount = object.urlsTestedCount;
+                                else if (typeof object.urlsTestedCount === "object")
+                                    message.urlsTestedCount = new $util.LongBits(object.urlsTestedCount.low >>> 0, object.urlsTestedCount.high >>> 0).toNumber();
+                            if (object.hasFindings != null)
+                                message.hasFindings = Boolean(object.hasFindings);
+                            if (object.errorTrace != null) {
+                                if (typeof object.errorTrace !== "object")
+                                    throw TypeError(".google.cloud.websecurityscanner.v1.ScanRunLog.errorTrace: object expected");
+                                message.errorTrace = $root.google.cloud.websecurityscanner.v1.ScanRunErrorTrace.fromObject(object.errorTrace);
+                            }
+                            return message;
+                        };
+    
+                        /**
+                         * Creates a plain object from a ScanRunLog message. Also converts values to other types if specified.
+                         * @function toObject
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {google.cloud.websecurityscanner.v1.ScanRunLog} message ScanRunLog
+                         * @param {$protobuf.IConversionOptions} [options] Conversion options
+                         * @returns {Object.<string,*>} Plain object
+                         */
+                        ScanRunLog.toObject = function toObject(message, options) {
+                            if (!options)
+                                options = {};
+                            var object = {};
+                            if (options.defaults) {
+                                object.summary = "";
+                                object.name = "";
+                                object.executionState = options.enums === String ? "EXECUTION_STATE_UNSPECIFIED" : 0;
+                                object.resultState = options.enums === String ? "RESULT_STATE_UNSPECIFIED" : 0;
+                                if ($util.Long) {
+                                    var long = new $util.Long(0, 0, false);
+                                    object.urlsCrawledCount = options.longs === String ? long.toString() : options.longs === Number ? long.toNumber() : long;
+                                } else
+                                    object.urlsCrawledCount = options.longs === String ? "0" : 0;
+                                if ($util.Long) {
+                                    var long = new $util.Long(0, 0, false);
+                                    object.urlsTestedCount = options.longs === String ? long.toString() : options.longs === Number ? long.toNumber() : long;
+                                } else
+                                    object.urlsTestedCount = options.longs === String ? "0" : 0;
+                                object.hasFindings = false;
+                                object.errorTrace = null;
+                            }
+                            if (message.summary != null && message.hasOwnProperty("summary"))
+                                object.summary = message.summary;
+                            if (message.name != null && message.hasOwnProperty("name"))
+                                object.name = message.name;
+                            if (message.executionState != null && message.hasOwnProperty("executionState"))
+                                object.executionState = options.enums === String ? $root.google.cloud.websecurityscanner.v1.ScanRun.ExecutionState[message.executionState] : message.executionState;
+                            if (message.resultState != null && message.hasOwnProperty("resultState"))
+                                object.resultState = options.enums === String ? $root.google.cloud.websecurityscanner.v1.ScanRun.ResultState[message.resultState] : message.resultState;
+                            if (message.urlsCrawledCount != null && message.hasOwnProperty("urlsCrawledCount"))
+                                if (typeof message.urlsCrawledCount === "number")
+                                    object.urlsCrawledCount = options.longs === String ? String(message.urlsCrawledCount) : message.urlsCrawledCount;
+                                else
+                                    object.urlsCrawledCount = options.longs === String ? $util.Long.prototype.toString.call(message.urlsCrawledCount) : options.longs === Number ? new $util.LongBits(message.urlsCrawledCount.low >>> 0, message.urlsCrawledCount.high >>> 0).toNumber() : message.urlsCrawledCount;
+                            if (message.urlsTestedCount != null && message.hasOwnProperty("urlsTestedCount"))
+                                if (typeof message.urlsTestedCount === "number")
+                                    object.urlsTestedCount = options.longs === String ? String(message.urlsTestedCount) : message.urlsTestedCount;
+                                else
+                                    object.urlsTestedCount = options.longs === String ? $util.Long.prototype.toString.call(message.urlsTestedCount) : options.longs === Number ? new $util.LongBits(message.urlsTestedCount.low >>> 0, message.urlsTestedCount.high >>> 0).toNumber() : message.urlsTestedCount;
+                            if (message.hasFindings != null && message.hasOwnProperty("hasFindings"))
+                                object.hasFindings = message.hasFindings;
+                            if (message.errorTrace != null && message.hasOwnProperty("errorTrace"))
+                                object.errorTrace = $root.google.cloud.websecurityscanner.v1.ScanRunErrorTrace.toObject(message.errorTrace, options);
+                            return object;
+                        };
+    
+                        /**
+                         * Converts this ScanRunLog to JSON.
+                         * @function toJSON
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @instance
+                         * @returns {Object.<string,*>} JSON object
+                         */
+                        ScanRunLog.prototype.toJSON = function toJSON() {
+                            return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                        };
+    
+                        /**
+                         * Gets the default type url for ScanRunLog
+                         * @function getTypeUrl
+                         * @memberof google.cloud.websecurityscanner.v1.ScanRunLog
+                         * @static
+                         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                         * @returns {string} The default type url
+                         */
+                        ScanRunLog.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                            if (typeUrlPrefix === undefined) {
+                                typeUrlPrefix = "type.googleapis.com";
+                            }
+                            return typeUrlPrefix + "/google.cloud.websecurityscanner.v1.ScanRunLog";
+                        };
+    
+                        return ScanRunLog;
+                    })();
+    
                     v1.WebSecurityScanner = (function() {
     
                         /**
