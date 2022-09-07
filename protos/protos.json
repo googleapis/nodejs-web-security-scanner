@@ -109,6 +109,13 @@
                         "xss": {
                           "type": "Xss",
                           "id": 14
+                        },
+                        "xxe": {
+                          "type": "Xxe",
+                          "id": 18,
+                          "options": {
+                            "(google.api.field_behavior)": "OUTPUT_ONLY"
+                          }
                         }
                       },
                       "nested": {
@@ -245,6 +252,26 @@
                         }
                       }
                     },
+                    "Xxe": {
+                      "fields": {
+                        "payloadValue": {
+                          "type": "string",
+                          "id": 1
+                        },
+                        "payloadLocation": {
+                          "type": "Location",
+                          "id": 2
+                        }
+                      },
+                      "nested": {
+                        "Location": {
+                          "values": {
+                            "LOCATION_UNSPECIFIED": 0,
+                            "COMPLETE_REQUEST_BODY": 1
+                          }
+                        }
+                      }
+                    },
                     "FindingTypeStats": {
                       "fields": {
                         "findingType": {
@@ -308,6 +335,10 @@
                         "staticIpScan": {
                           "type": "bool",
                           "id": 14
+                        },
+                        "ignoreHttpStatusErrors": {
+                          "type": "bool",
+                          "id": 15
                         }
                       },
                       "nested": {
@@ -324,7 +355,10 @@
                           "fields": {
                             "googleAccount": {
                               "type": "GoogleAccount",
-                              "id": 1
+                              "id": 1,
+                              "options": {
+                                "deprecated": true
+                              }
                             },
                             "customAccount": {
                               "type": "CustomAccount",
@@ -337,6 +371,9 @@
                           },
                           "nested": {
                             "GoogleAccount": {
+                              "options": {
+                                "deprecated": true
+                              },
                               "fields": {
                                 "username": {
                                   "type": "string",
@@ -603,7 +640,8 @@
                             "INSUFFICIENT_CRAWL_RESULTS": 1,
                             "TOO_MANY_CRAWL_RESULTS": 2,
                             "TOO_MANY_FUZZ_TASKS": 3,
-                            "BLOCKED_BY_IAP": 4
+                            "BLOCKED_BY_IAP": 4,
+                            "NO_STARTING_URL_FOUND_FOR_MANAGED_SCAN": 5
                           }
                         }
                       }
